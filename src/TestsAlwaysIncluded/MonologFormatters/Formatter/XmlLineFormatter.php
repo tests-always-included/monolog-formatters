@@ -78,7 +78,7 @@ class XmlLineFormatter extends LineFormatter
                 $context[$var] = $this->convertToString($val);
             }
         }
-        $output = str_replace('%context%', $this->convertToString($val), $output);
+        $output = str_replace('%context%', $this->convertToString($context), $output);
         return $output;
     }
 
