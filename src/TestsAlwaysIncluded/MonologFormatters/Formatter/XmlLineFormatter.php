@@ -38,7 +38,7 @@ class XmlLineFormatter extends LineFormatter
             {
                 $domDocument = $this->sanitizeXML($domDocument);
             }
-            $formattedXML = @$domDocument->saveXML . "\n";
+            $formattedXML = @$domDocument->saveXML() . "\n";
             return $formattedXML;
         }
         else
