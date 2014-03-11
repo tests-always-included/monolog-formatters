@@ -1,0 +1,23 @@
+{
+    "name": "tests-always-included/monolog-formatters",
+    "type": "library",
+    "authors":
+    [
+        {
+            "name": "Tests Always Included Members",
+            "homepage": "https://github.com/tests-always-included/monolog-formatters"
+        }
+    ],
+    "require":
+    {
+        "php": ">=5.3.9",
+        "monolog/monolog": ">=1.7.0"
+    },
+    "autoload":
+    {
+        "psr-0":
+        {
+            "TestsAlwaysIncluded\\MonologFormatters\\": "src"
+        }
+    }
+}
