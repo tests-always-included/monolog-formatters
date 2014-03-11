@@ -95,7 +95,7 @@ class XmlLineFormatter extends LineFormatter
         return preg_replace(array('/\d/', '/\w/'), self::SANITIZE_CHARACTER, $value);
     }
 
-    protected function sanitizaXML(DOMDocument $domDocument)
+    protected function sanitizeXML(DOMDocument $domDocument)
     {
         $xPath = $this->createAndReturnXPath($domDocument);
         foreach($this->getXPathRules() as $rule)
