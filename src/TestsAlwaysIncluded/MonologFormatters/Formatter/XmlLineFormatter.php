@@ -143,7 +143,7 @@ class XmlLineFormatter extends LineFormatter
         {
             if(false === is_string($rule))
             {
-                throw new \UnexpectdValueException('$rules must contain an array of strings');
+                throw new \UnexpectedValueException('$rules must contain an array of strings');
             }
         }
         $this->xPathRules = $rules;
