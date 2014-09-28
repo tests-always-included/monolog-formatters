@@ -16,7 +16,7 @@ class XmlLineFormatter extends LineFormatter
     const SANITIZE_CHARACTER = '*';
 
     protected $domDocument;
-    protected $xPathNamespacs = array();
+    protected $xPathNamespaces = array();
     protected $xPathRules = array();
 
     /**
